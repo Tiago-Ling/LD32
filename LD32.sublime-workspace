@@ -1,0 +1,543 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bgm",
+				"bgm_intro	var"
+			],
+			[
+				"pla",
+				"playMusic(...)	Void"
+			],
+			[
+				"bgm_",
+				"bgm_loop_a	var"
+			],
+			[
+				"in",
+				"bgm_intro__mp3	String"
+			],
+			[
+				"ho",
+				"howto__jpg	String"
+			],
+			[
+				"cre",
+				"creditos__jpg	String"
+			],
+			[
+				"score",
+				"scoreNum	var"
+			],
+			[
+				"fu",
+				"bg_fundo__png	String"
+			],
+			[
+				"add",
+				"addToScore( value : Int )	Unknown<0>"
+			],
+			[
+				"Ene",
+				"EnemyGroup	class"
+			],
+			[
+				"cann",
+				"cannonLeft	var"
+			],
+			[
+				"FlxSprite",
+				"FlxSpriteGroup	flixel.group"
+			],
+			[
+				"si",
+				"sineOut( t : Float )	Float"
+			],
+			[
+				"act",
+				"activate( x : Int , y : Int )	Unknown<0>"
+			],
+			[
+				"sfx",
+				"SFX_Siren2__wav	String"
+			],
+			[
+				"r",
+				"radar_sheet__png	String"
+			],
+			[
+				"pos",
+				"positions"
+			],
+			[
+				"spawn",
+				"spawnAt	function"
+			],
+			[
+				"posi",
+				"positions	var"
+			],
+			[
+				"METEO",
+				"METEOR_CHANCE	var"
+			],
+			[
+				"MET",
+				"METEOR_CHANCE	var"
+			],
+			[
+				"hull",
+				"hullHealth	var"
+			],
+			[
+				"Ship",
+				"ShipExplosion	class"
+			],
+			[
+				"explo",
+				"explosion2__png	String"
+			],
+			[
+				"qui",
+				"quintOut( t : Float )	Float"
+			],
+			[
+				"bo",
+				"botsheet__png	String"
+			],
+			[
+				"handl",
+				"handleBulletEnemyCollision	function"
+			],
+			[
+				"ene",
+				"defeat_enemy__wav	String"
+			],
+			[
+				"reset",
+				"reset( X : Float , Y : Float )	Void"
+			],
+			[
+				"getf",
+				"getFirstDead()	flixel.effects.particles.FlxEmitter"
+			],
+			[
+				"gr",
+				"group	package"
+			],
+			[
+				"exp",
+				"explosion__wav	String"
+			],
+			[
+				"ex",
+				"explosion1__png	String"
+			],
+			[
+				"flxgr",
+				"FlxGraphic"
+			],
+			[
+				"FlxGraphic",
+				"FlxGraphicAsset	flixel.system.FlxAssets"
+			],
+			[
+				"v",
+				"vsheet2__png	String"
+			],
+			[
+				"idle",
+				"idle_top"
+			],
+			[
+				"bul",
+				"bullet	var"
+			],
+			[
+				"ela",
+				"elapsedCharge	var"
+			],
+			[
+				"chase",
+				"chaseVelocity	var"
+			],
+			[
+				"Enemy",
+				"EnemyState	Enemy"
+			],
+			[
+				"Cha",
+				"Chasing	EnemyState"
+			],
+			[
+				"enem",
+				"enemyGroups	var"
+			],
+			[
+				"cannon",
+				"cannonRight	var"
+			],
+			[
+				"na",
+				"nave__png	String"
+			],
+			[
+				"t",
+				"truster___png	String"
+			],
+			[
+				"th",
+				"Thruster"
+			],
+			[
+				"BULL",
+				"BULLET_SPEED	var"
+			],
+			[
+				"flx",
+				"FlxTypedGroup"
+			],
+			[
+				"is",
+				"isOnScreen(...)	Bool"
+			],
+			[
+				"co",
+				"FlxColor	class"
+			],
+			[
+				"ang",
+				"launchAngle	flixel.util.helpers.FlxBounds<Float>"
+			],
+			[
+				"em",
+				"emitParticle()	Void"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"build",
+				"Haxe: Choose Build Target"
+			],
+			[
+				"haxe",
+				"Haxe: Choose Build Target"
+			],
+			[
+				"bui",
+				"Haxe: Run build"
+			],
+			[
+				"bu",
+				"Haxe: Choose Build Target"
+			],
+			[
+				"b",
+				"Haxe: Run build"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"",
+				"Build: OpenFL Test HTML5"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/tiagolingalexandre/GitRepos/trabalho-em-altura/source/states/MenuState.hx",
+		"/Users/tiagolingalexandre/GitRepos/trabalho-em-altura/Project.xml",
+		"/Users/tiagolingalexandre/GitRepos/flixel/flixel/FlxSprite.hx",
+		"/Users/tiagolingalexandre/GitRepos/trabalho-em-altura/source/entities/Player.hx",
+		"/Users/tiagolingalexandre/GitRepos/flixel-addons/flixel/addons/editors/spine/FlxSpine.hx",
+		"/Users/tiagolingalexandre/GitRepos/spinehaxe/spinehaxe/animation/AnimationState.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/IntroState.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/MenuState.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/Radar.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/TutorialState.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/MeteorGroup.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/Ship.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/EnemyGroup.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/Main.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/GameOverState.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/CreditState.hx",
+		"/Users/tiagolingalexandre/GitRepos/flixel/flixel/effects/particles/FlxEmitter.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/Explosion.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/Player.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/Bullet.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/HullRepair.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/Thruster.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/Cannon.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/HUD.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/Enemy.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/Spawnable.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/Meteor.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/ShipExplosion.hx",
+		"/Users/tiagolingalexandre/GitRepos/flixel/flixel/FlxObject.hx",
+		"/Users/tiagolingalexandre/GitRepos/flixel/flixel/FlxBasic.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/Project.xml",
+		"/Users/tiagolingalexandre/GitRepos/flixel/flixel/effects/particles/FlxParticle.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/RunnerBackdrop.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/Reg.hx",
+		"/Users/tiagolingalexandre/GitRepos/flixel/flixel/graphics/frames/FlxFramesCollection.hx",
+		"/Users/tiagolingalexandre/GitRepos/GGJ2015/source/PlayState.hx",
+		"/Users/tiagolingalexandre/GitRepos/flixel/flixel/input/keyboard/FlxKeyList.hx",
+		"/Users/tiagolingalexandre/GitRepos/flixel-addons/flixel/addons/display/FlxBackdrop.hx",
+		"/Users/tiagolingalexandre/GitRepos/flixel/flixel/FlxG.hx",
+		"/Users/tiagolingalexandre/GitRepos/flixel/flixel/util/FlxSpriteUtil.hx",
+		"/Users/tiagolingalexandre/GitRepos/flixel/flixel/FlxCamera.hx",
+		"/Users/tiagolingalexandre/GitRepos/flixel/flixel/math/FlxMath.hx",
+		"/Users/tiagolingalexandre/GitRepos/flixel/flixel/math/FlxAngle.hx",
+		"/usr/lib/haxe/std/cs/StringBuilder.hx",
+		"/usr/lib/haxe/std/haxe/io/BufferInput.hx",
+		"/Users/tiagolingalexandre/GitRepos/flixel/flixel/util/FlxBitmapDataUtil.hx",
+		"/usr/lib/haxe/lib/openfl/2,2,3/openfl/display/Bitmap.hx",
+		"/Users/tiagolingalexandre/Projects/Haxe/Mode/Mode.sublime-project",
+		"/Users/tiagolingalexandre/Projects/Haxe/Mode/source/PlayState.hx",
+		"/Users/tiagolingalexandre/Projects/Haxe/Mode/Project.xml",
+		"/Users/tiagolingalexandre/Projects/Haxe/Mode/export/mac64/neko/haxe/release.hxml",
+		"/Users/tiagolingalexandre/Projects/Haxe/Mode/export/mac64/cpp/haxe/debug.hxml",
+		"/Users/tiagolingalexandre/Library/Application Support/Sublime Text 2/Packages/User/Lime.sublime-build",
+		"/Users/tiagolingalexandre/Library/Application Support/Sublime Text 2/Packages/User/lime_neko.sublime-build"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"setcurrent",
+			"current",
+			"setcurrent",
+			"SFX_Strike",
+			"sound",
+			"music",
+			"SLASH",
+			"trace",
+			"switchState",
+			"pressed.E",
+			"hullHUDCallback",
+			"bullet",
+			"UP",
+			"space",
+			".SPACE",
+			"SPACE",
+			"gravity",
+			"start",
+			"rocket.kill();",
+			"FlxTween",
+			"setHullRepairCallback",
+			"enemyGroup",
+			"spawnDelay",
+			"setSpawn",
+			"setspawn",
+			"meteorGroup",
+			"meter\nmeter",
+			"Meteor",
+			";\n",
+			"colGroup",
+			"bullets",
+			"shake",
+			"getMidPoint",
+			"enemyLife",
+			"();\n",
+			"health",
+			"takeHit",
+			"color",
+			"kill",
+			"setState",
+			"scroll",
+			"3",
+			"angular",
+			"setScale"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 145.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "LD32.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 366.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

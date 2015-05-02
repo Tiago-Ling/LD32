@@ -1,0 +1,19 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		},
+
+		{
+			"follow_symlinks": true,
+			"path": "/Users/tiagolingalexandre/GitRepos/flixel/flixel"
+		},
+
+		{
+			"follow_symlinks": true,
+			"path": "/Users/tiagolingalexandre/GitRepos/flixel-addons/flixel"
+		}
+	]
+}
